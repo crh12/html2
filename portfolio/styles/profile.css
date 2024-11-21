@@ -6,6 +6,7 @@
 }
 .profile .ambition_g {}
 .profile .ambition_g .photo {}
+.profile .ambition_g .photo img {width:97px}
 .profile .ambition {font-size: 1.94rem;}
 .profile .ambition em {
     font-weight: 700;
