@@ -26,6 +26,7 @@
 #wrap main .bg .corporate {
     background-color: yellow;
     width: 1140px; margin: 0 auto;
+    overflow: hidden;
 }
 #wrap main .bg .corporate li {
     background-color: aqua;
@@ -38,6 +39,7 @@
     padding:30px;
     display:inline-block;
     margin-right: 42.5px;
+    float:left;
 }
 #wrap main .bg .corporate li:nth-child(1) {}
 #wrap main .bg .corporate li:nth-child(2) {background-image: url(../images/info/02.png);}
