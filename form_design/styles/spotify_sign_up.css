@@ -1,0 +1,32 @@
+body {background-color: #222;}
+main {width: 500px; margin: 0 auto; background-color: coral;}
+main h1 {}
+main h1 a {}
+main h1 a img {}
+/* ================================================================= 탭 메뉴 */
+main .tab_menu {}
+main .tab_menu a {}
+main .tab_menu .active {}
+/* ================================================================= 가입 폼 */
+main .tab_wrap {}
+main .tab_wrap #upFrm {}
+main .tab_wrap #upFrm .upFrm_wrap {}
+main .tab_wrap #upFrm .upFrm_wrap dt {}
+main .tab_wrap #upFrm .upFrm_wrap dd {}
+main .tab_wrap #upFrm .upFrm_wrap dd input[name^=user] {}
+main .tab_wrap #upFrm .upFrm_wrap dd input[name^=user]::placeholder {}
+main .tab_wrap #upFrm .upFrm_wrap dd .common_btn {}
+main .tab_wrap #upFrm .upFrm_wrap dd.refer {}
+main .tab_wrap #upFrm .upFrm_wrap dd img {}
+main .tab_wrap #upFrm .upFrm_wrap dd select[name=e_domain] {}
+main .tab_wrap #upFrm .upFrm_wrap dd select[name=e_domain] option {}
+main .tab_wrap #upFrm .submit_btn {}
+main .tab_wrap #upFrm .submit_btn .sign_up_btn {}
+/* ================================================================= 개별 디자인 */
+main .tab_wrap #upFrm .upFrm_wrap dd input[name$=name] {}
+main .tab_wrap #upFrm .upFrm_wrap dd .name_check_btn {}
+main .tab_wrap #upFrm .upFrm_wrap dd input[name$=pw] {}
+main .tab_wrap #upFrm .upFrm_wrap dd input[name$=pw_re] {}
+main .tab_wrap #upFrm .upFrm_wrap dd input[name$=email] {}
+main .tab_wrap #upFrm .upFrm_wrap dd input[name$=cell] {}
+main .tab_wrap #upFrm .upFrm_wrap dd .get_code_btn {}
