@@ -1,0 +1,46 @@
+#wrap {}
+#wrap .container {}
+/* ============================================================ 1행 제목+후원 */
+#wrap .bg1 {
+  background-image: url(../images/bg1.png);
+  background-position: center;
+  background-size: cover;
+}
+#wrap .bg1 .gradient {
+  /* background:linear-gradient(각도deg, 색상, 색상위치%, 색상) */
+  background: linear-gradient(45deg, transparent, rgba(0,0,0,0.6) 69%);
+}
+#wrap .bg1 .gradient .contents {
+  height: 100vh; width: 1250px; margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 0;
+  display: flex; flex-flow: column nowrap;
+  justify-content: center; align-items: center;
+}
+#wrap .bg1 .gradient .contents h1:nth-child(1) {width: 89px; align-self: flex-start;}
+#wrap .bg1 .gradient .contents h1:nth-child(1) a {}
+#wrap .bg1 .gradient .contents h1:nth-child(1) a img {width: 100%;}
+#wrap .bg1 .gradient .contents h1:nth-child(2) {
+  color: #fff; text-align: center;
+  font-size: 4.38rem; line-height: 1.3; letter-spacing: -0.02em;
+}
+#wrap .bg1 .gradient .contents h1:nth-child(2) span {font-weight: 700;}
+#wrap .bg1 .gradient .contents .sponsor_btn {
+  color: #fff; background: linear-gradient(90deg, #fe9300,#ff7300);
+  padding: 15px 70px; border-radius: 50px;
+  font-size: 2.13rem;
+}
+#wrap .bg1 .gradient .contents .sponsor_btn img {}
+#wrap .bg1 .gradient .contents .sponsor_q_btn {align-self:flex-end; color: #fff;}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img {}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img:first-child {}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img:last-child {}
+/* ============================================================ 2행 퀴즈+참여 */
+/* ============================================================ 3행 동영상 */
+/* ============================================================ 4행 빙하 50% 감소 */
+/* ============================================================ 5행 인류재앙3 */
+/* ============================================================ 6행 지구전체위기 */
+/* ============================================================ 7행 WWF소개 */
+/* ============================================================ 8행 다양한활동 */
+/* ============================================================ 9행 감사선물 */
+/* ============================================================ 10행 안내사항 */
