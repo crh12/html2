@@ -3,29 +3,50 @@
   /* ========================================================== 공통 선택자 + 1행 반응형디자인(tablet) */
   #wrap .container > * {padding: 0 80px;}
   #wrap .container .main_title {font-size: 3.13rem;}
+  #wrap .container .contents h2 {font-size:2.5rem;}
   #wrap .container .sponsor_btn {
     font-size: 1.38rem; width: 270px; padding: 15px 0;
     display: flex; justify-content: center; align-items: center;
   }
   #wrap .container .sponsor_btn img {top:0;}
-  #wrap .container .sponsor_q_btn {
-    padding: 10px 20px; font-size: 1.38rem;
-  }
-}
-/* ========================================================== 2행 반응형디자인(tablet) */
-/* ========================================================== 3행 반응형디자인(tablet) */
-/* ========================================================== 4행 반응형디자인(tablet) */
-/* ========================================================== 5행 반응형디자인(tablet) */
-/* ========================================================== 6행 반응형디자인(tablet) */
-/* ========================================================== 7행 반응형디자인(tablet) */
-/* ========================================================== 8행 반응형디자인(tablet) */
-/* ========================================================== 9행 반응형디자인(tablet) */
-/* ========================================================== 10행 반응형디자인(tablet) */
-/* 1250 end */
+  #wrap .container .sponsor_q_btn {padding: 10px 20px; font-size: 1.38rem;}
+  #wrap .bg1 .gradient .contents {height: 100vh;}
+  /* ========================================================== 2행 퀴즈 반응형디자인(tablet) */
+  #wrap .bg2 {padding: 150px 0;}
+  #wrap .bg2 .contents .quiz_contents h2 {margin: 0 0 56px 222px;}
+  #wrap .bg2 .contents .quiz_contents form .answer_btn {width: 300px; margin-left: 40px;}
+  #wrap .bg2 .contents .quiz_status {text-align: right; margin-top: 103.67px;}
+  #wrap .bg2 .contents .quiz_status img {width: 316px;}
+  #wrap .bg2 .contents .quiz_status span {margin-top: 15px;}
+  /* ========================================================== 3행 동영상 반응형디자인(tablet) */
+  /* ========================================================== 4행 반응형디자인(tablet) */
+  /* ========================================================== 6행 반응형디자인(tablet) */
+  #wrap .bg4 .contents h2,
+  #wrap .bg6 .contents h2 {font-size:2.50rem}
+  #wrap .bg4 .contents h2+p,
+  #wrap .bg6 .contents h2+p {font-size:1.38rem; margin: 40px 0;}
+  /* ========================================================== 5행 반응형디자인(tablet) */
+  #wrap .bg5 .contents > p {margin: 40px 0;}
+  #wrap .bg5 .contents > p,
+  #wrap .bg5 .contents ul li .title p,
+  #wrap .bg5 .contents ul li .content {font-size: 1.0rem;}
+  /* ========================================================== 7행 반응형디자인(tablet) */
+  /* ========================================================== 8행 반응형디자인(tablet) */
+  /* ========================================================== 9행 반응형디자인(tablet) */
+  /* ========================================================== 10행 반응형디자인(tablet) */
+}  /* 1250 end */
+@media screen and (max-width:900px) {
+  /* ========================================================== 2행 반응형디자인(769~900) */
+  #wrap .bg2 .contents {flex-flow: column nowrap; align-items: center;}
+  #wrap .bg2 .contents .quiz_contents h2 {text-align: center; margin: 0 0 56px;}
+  #wrap .bg2 .contents .quiz_contents form .answer_btn {margin: 0; align-self: center;}
+  #wrap .bg2 .contents .quiz_status {text-align: center; margin-top: 50px;}
+} /* 769 ~ 900 end */
 @media screen and (max-width:768px) {
-  /* ========================================================== 공통 선택자 + 1행 반응형디자인(mobile) */
+  /* ========================================================== 공통+ 1행 반응형디자인(mobile) */
   #wrap .container > * {padding: 0 15px;}
   #wrap .container .main_title {font-size: 1.88rem;}
+  #wrap .container .contents h2 {font-size:1.38rem;}
   #wrap .container .sponsor_btn {font-size: 1.25rem; width:250px;}
   #wrap .container .sponsor_btn img {width: 20px;}
   #wrap .container .sponsor_q_btn {font-size: 0.88rem;}
@@ -33,14 +54,37 @@
   #wrap .bg1 .gradient .contents > * {margin-bottom: 50px;}
   #wrap .bg1 .gradient .contents h1:nth-child(1) {width: 50px;}
   #wrap .bg1 .gradient .contents .sponsor_q_btn {align-self:center;}
-}
-/* ========================================================== 2행 반응형디자인(mobile) */
-/* ========================================================== 3행 반응형디자인(mobile) */
-/* ========================================================== 4행 반응형디자인(mobile) */
-/* ========================================================== 5행 반응형디자인(mobile) */
-/* ========================================================== 6행 반응형디자인(mobile) */
-/* ========================================================== 7행 반응형디자인(mobile) */
-/* ========================================================== 8행 반응형디자인(mobile) */
-/* ========================================================== 9행 반응형디자인(mobile) */
-/* ========================================================== 10행 반응형디자인(mobile) */
-/* 768 end */
+  /* ========================================================== 2행 반응형디자인(mobile) */
+  #wrap .bg2 {padding: 75px 0;}
+  #wrap .bg2 .contents .quiz_contents p,
+  #wrap .bg2 .contents .quiz_contents form label span,
+  #wrap .bg2 .contents .quiz_contents form .answer_btn,
+  #wrap .bg2 .contents .quiz_status span {font-size:0.88rem; line-height:1.2; letter-spacing:-0.02em;}
+  #wrap .bg2 .contents .quiz_contents form label input[name^=quiz]+span {background-size: 16px;}
+  #wrap .bg2 .contents .quiz_status img {width: 250px;}
+  /* ========================================================== 3행 반응형디자인(mobile) */
+  #wrap .bg3 {padding: 100px 0;}
+  #wrap .bg3 .contents iframe {margin:50px; height: 300px;}
+  /* ========================================================== 4행 반응형디자인(mobile) */
+  /* ========================================================== 6행 반응형디자인(mobile) */
+  #wrap .bg4 ,
+  #wrap .bg6 {padding: 100px 0;}
+  #wrap .bg4 .contents h2,
+  #wrap .bg6 .contents h2 {font-size:1.38rem}
+  #wrap .bg4 .contents h2+p,
+  #wrap .bg6 .contents h2+p {font-size:0.88rem; margin: 30px 0;}
+  /* ========================================================== 5행 반응형디자인(mobile) */
+  #wrap .bg5 {padding: 100px 0;}
+  #wrap .bg5 .contents ul {flex-flow: column nowrap;}
+  #wrap .bg5 .contents ul li {width: 100%; margin-bottom: 20px;}
+  #wrap .bg5 .contents ul li .title {height: 150px;}
+  #wrap .bg5 .contents ul li .content{height: 100%;}
+  #wrap .bg5 .contents ul li .title h3 {font-size:1.25rem;}
+  #wrap .bg5 .contents > p,
+  #wrap .bg5 .contents ul li .title p,
+  #wrap .bg5 .contents ul li .content {font-size: 0.75rem; letter-spacing: -0.02em;}
+  /* ========================================================== 7행 반응형디자인(mobile) */
+  /* ========================================================== 8행 반응형디자인(mobile) */
+  /* ========================================================== 9행 반응형디자인(mobile) */
+  /* ========================================================== 10행 반응형디자인(mobile) */
+}  /* 320 ~ 768 end */
